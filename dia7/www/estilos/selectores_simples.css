@@ -1,0 +1,56 @@
+h1 {
+    color: rebeccapurple;
+    background: yellow;
+}
+/* # serve para seleccionar id's */
+#principal {
+    color: lime;
+}
+
+/* punto serve para seleccionar class */
+.párrafo {
+    background: grey
+}
+
+.cabeceira {
+    font-size: 1.5rem
+}
+/* [] serve para seleccionar etiquetas */
+[href] {
+    color: red
+}
+
+[lang=la] {
+
+    background: blue
+    
+}
+
+[data-hackabos="modulo1"] {
+    border-bottom: red 1,5rem
+}
+
+[data-rel~="especial"] {
+    background: lightcoral
+}
+
+[data-rel^="ex"] {
+
+    background: lightgreen
+}
+
+[data-rel$="no"] {
+
+    font-size: 1.7rem
+}
+
+[data-rel*="peci"] {
+
+    border: 2px solid blue
+}
+
+[id$="al"] {
+
+    font-size: 2px red
+}
+

@@ -1,0 +1,48 @@
+p.especial::first-letter {
+    font-size: 2rem;
+    color: maroon
+}
+
+p::first-line {
+    background: yellow
+}
+
+p::selection {
+    background: green;
+    text-shadow: 2px 2px 2px red;
+}
+
+a::after {
+    content: "kk";
+}
+
+a[href^="http"]::after {
+    content: "jamones"
+}
+
+/* Combinación de selectores */
+
+p, a {
+    color: green;
+}
+
+header p strong {
+    border-bottom: solid limegreen
+}
+
+header>strong {
+    background: lightblue;
+}
+
+header>p>strong {
+    background: yellow;
+}
+/* todos os strong precedidos por h1 */
+h1 + strong {
+    font-size: 3rem;
+}
+
+h1~p {
+    background: maroon;
+}
+

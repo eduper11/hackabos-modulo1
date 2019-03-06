@@ -1,0 +1,25 @@
+@font-face  {
+    font-family: "marela";
+    src: url(/fonts/marela.ttf);
+    
+}
+
+header h1 {
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    font-size: 3rem;
+    font-style: oblique;
+}
+/* cuando poñemos unha lista de tipografías, estamos decindo: "pon primeiro esta, e si non a hay, a seguinte, e si non a hay, unha sin serifa" */
+header p {
+    font-weight: bold;
+    text-transform: Full-width;
+    text-decoration: none;
+    text-shadow: .3rem .3rem 50px red;
+    text-align: center;
+    line-height: unset;
+    letter-spacing: unset;
+    word-spacing: unset;
+}
+

@@ -1,0 +1,40 @@
+h1 {
+    background: lightblue;
+    width: 200px;
+    height: auto;
+    padding: 2rem 100px;  /* (padding-right, padding-bottom, padding top, pading left), padding: 1 valor (mismo para todos), 2 valores (primero arriba-abajo, segundo izda-dcha), 3 valores (arriba, izda-dcha, abajo, 4 valores (arriba, dcha, abajo, idzda) */
+    margin: 0 auto;/*margin auto en lateral reparteo, así que o que fai e centrar o contido*/
+    border: 10px solid black;
+    box-sizing: border-box; /*este elemento o que fai e poñer o límite a partir do cual non medra a caixa, e decir, si poñemos border-box, si modificamos o padding, crecerá cara adentro, pero a caixa non medrará. */
+}
+
+h2 {
+    background: lightcoral;
+}
+
+/* los margin no se suman, se solapan, si 2 margenes se tocan, va a coger el margen mas grande, pero NO se SUMAN */
+
+ul {
+    background: lightgoldenrodyellow;
+    margin: 3rem;
+    margin: 1rem;
+}
+
+li {
+    background: lightgreen;
+}
+
+p {
+    background: lightpink;
+}
+
+/* En elementos inline los elementos width y height no funcionan */
+
+strong {
+    background: lightslategray;
+
+}
+
+em {
+    background: lightseagreen;
+    }

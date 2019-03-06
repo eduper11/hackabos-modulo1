@@ -1,0 +1,29 @@
+header {
+    border: 10px dashed black;
+    background: rebeccapurple;
+    color: yellow;
+}
+
+#contido{
+    background: rebeccapurple;
+    color: white
+}
+
+.importante {
+    font-weight: bold; 
+    font-size: 4rem;
+}
+
+.superimportante {
+    background: red
+}
+
+[lang] {color: red}
+
+[data-hackabos] {background: rebeccapurple}
+
+[data-hackabos="modulo0"] {color: steelblue;}
+
+a:hover {
+    background: red;
+}

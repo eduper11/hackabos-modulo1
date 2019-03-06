@@ -1,0 +1,80 @@
+@import "generic.css";
+
+section#contacto h2 {
+  margin: 1rem 1rem 0 1rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+fieldset textarea {
+  height: 5rem;
+}
+
+fieldset ul li label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+button.boton {
+  margin-left: 1rem;
+}
+
+aside {
+  margin: 1rem;
+  border: 1px solid grey;
+  background: lightgrey;
+}
+
+aside * {
+  padding: 0.2rem;
+}
+
+aside address p:first-child::before {
+  content: url();
+}
+
+section#direccion {
+  padding: 1rem;
+}
+
+section#direccion address {
+  margin: 0.5rem 0;
+}
+
+section#direccion address p {
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}
+
+section#direccion iframe {
+  width: 100%;
+  height: 12rem;
+}
+
+@media (min-width: 500px) {
+  section#contacto h2 {
+    text-align: center;
+  }
+
+  section#contacto div {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  section#contacto div form {
+    flex-basis: 65%;
+  }
+
+  section#contacto div aside {
+    flex-basis: 45%;
+    align-items: flex-start;
+  }
+}

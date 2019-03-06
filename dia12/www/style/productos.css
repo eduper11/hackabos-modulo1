@@ -1,0 +1,47 @@
+@import "generic.css";
+
+main section#produtos > h2 {
+    text-align: center;
+}
+
+article#listaproduto {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+article#listaproduto figure {
+    order: -1;
+    max-width: 30%;
+    margin: 0 1rem;
+}
+
+article#listaproduto figure img {
+    max-width: 100%;
+    padding: 1.2rem 0 0 0;
+}
+
+article#listaproduto p {
+    margin: 0.5rem 1rem 1rem 0; 
+}
+
+section#prezos  table {
+    width: 100vw;
+    margin: 0.5rem; 
+}
+
+section#prezos table tbody tr:nth-child(odd) {
+    background: lightgrey
+}
+
+section#prezos  table thead {
+    text-align: left;
+}
+
+section#prezos table td:nth-child(2) {
+    font-style: italic;
+}
+
+section#prezos table td {
+    padding: 0.5rem;
+    width: 50%;
+}

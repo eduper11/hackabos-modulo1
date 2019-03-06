@@ -1,0 +1,12 @@
+#unico {
+    border: 1px red;
+    color: red;
+}
+
+/* !important es un "gano a todos", incluso a lo escrito en una etiqueta style de html y no se debe usar salvo casos muy especiales */
+
+.especial {
+    color: green;
+    border: none;
+}
+

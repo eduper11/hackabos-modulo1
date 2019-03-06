@@ -1,0 +1,36 @@
+[href*="http"] {
+    background: rebeccapurple;
+}
+
+a:hover {
+    background: red;
+}
+
+input:checked {
+    background: red
+}
+
+li:first-child {
+    background: red
+}
+
+li:last-child {
+    background: green
+}
+
+tr:nth-child(1) {
+    background: black;
+}
+
+tr:nth-child(even) {
+    background: blue;
+}
+
+:not(td) {
+    border: 2px solid green;
+}
+
+::selection {
+    background: red
+}
+

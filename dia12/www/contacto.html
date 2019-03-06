@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/contacto.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>Produtos guais</h1>
+      <nav>
+        <ul>
+          <li><a class="boton" href="/portada.html">Portada</a></li>
+          <li><a class="boton" href="/productos.html">Produtos</a></li>
+          <li><a class="boton" href="/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <div>
+          <form action=".">
+            <fieldset>
+              <ul>
+                <li>
+                  <label for="nome">Nome:</label>
+                  <input type="text" name="nome" id="nome" />
+                </li>
+                <li>
+                  <label for="comentario">Comentario:</label>
+                  <textarea name="comentario" id="comentario"></textarea>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <ul>
+                <li>
+                  <label for="provincia">Provincia</label>
+                  <select name="provincia" id="provincia">
+                    <option value="lugo">Lugo</option>
+                    <option value="coruña">A Coruña</option>
+                  </select>
+                </li>
+                <li>
+                  <label for="localidade">Localidade</label>
+                  <select name="localidade" id="localidade">
+                    <option value="Ferrol">Ferrol</option>
+                    <option value="Santiago de Compostela"
+                      >Santiago de Compostela</option
+                    >
+                  </select>
+                </li>
+              </ul>
+            </fieldset>
+            <button class="boton" type="submit">Enviar</button>
+          </form>
+
+          <aside>
+            <h3>Outros xeitos de contacto</h3>
+            <address>
+              <p><a class="phone" href="tel:981999999">981 999 999</a></p>
+              <p>
+                <a class="facebook" href="https://facebook.com/produtosguais"
+                  >produtosguais</a
+                >
+              </p>
+            </address>
+          </aside>
+        </div>
+      </section>
+
+      <section id="direccion">
+        <h2>Dirección</h2>
+        <address>
+          <p><strong>Produtos guais</strong></p>
+          <p>Rúa Nicaragua, 8</p>
+          <p>A Coruña</p>
+        </address>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.875279284509!2d-8.412521849005593!3d43.358719379030106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c8e4d6c3a83%3A0xae7a43b826f4ac88!2sCalle+R%C3%ADo+Sil%2C+15007+La+Coru%C3%B1a!5e0!3m2!1ses!2ses!4v1550924706169"
+          width="600"
+          height="450"
+          style="border:0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <footer>
+        <section>
+          <h2>(c) 2019 Hackabos</h2>
+          <p>Esta web fou feita no curso de HTML e CSS de Hackabos</p>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="/portada.html">Portada</a></li>
+            <li><a href="/productos.html">Produtos</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>

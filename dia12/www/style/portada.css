@@ -1,0 +1,74 @@
+@import "generic.css";
+
+div {
+    padding: 1rem 1rem;
+}
+
+main h1 {
+    display: none;
+}
+
+main section#seccions article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; 
+    border: 1px solid lightgrey;
+}
+
+main article div h2{
+    margin: 0.5rem 0.5rem;
+}
+
+main article div p {
+    margin: 0.5rem 0.5rem;
+}
+
+main section#seccions article figure {
+    order: -1;
+    max-width: 100vw;
+    text-align: center;
+}
+
+main article figure img {
+    max-width: 100%;
+}
+
+main section#infoproductos h2 {
+    margin-left: 0.5rem;
+}
+
+main section#infoproductos article {
+    display: flex;
+    /* align-items: flex-start */
+}
+
+main section#infoproductos:nth-child(2) article figure {
+    /* width: %; */
+    order: -1;
+    margin: 0.5rem 0.5rem;
+    /* align-content: center; */
+}
+
+main section#infoproductos:nth-child(2) article p {
+    margin: 0.5rem 0.5rem;
+}
+
+@media (min-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    main > h1 {
+        display: block;
+        text-align: center;
+    }
+
+    section#seccions {
+        display: flex;
+    }
+
+    section#seccions article:first-of-type {
+        margin-right: 0.5rem;
+    }
+}

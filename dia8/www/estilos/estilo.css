@@ -1,0 +1,40 @@
+html {
+    font-size: 15px;
+}
+/* tamaño por defecto de html, son 16px */
+
+header {
+    background: lightcyan;
+}
+
+header h1 {
+    font-size: 3rem
+}
+
+body {
+    font-size: 20px;
+}
+
+p.inicial {
+    background: lightcoral;
+    margin: 1em;
+    font-size: 1rem;
+    padding: 10px;
+    border: 4px solid black;
+    width: 50vw;
+    height: 50vh;
+}
+
+section {
+    background: lightgreen;
+    padding: 20px;
+    font-size: 50px;
+    width: 600px;
+}
+/* rgba el cuarto elemento es para la opacidad */
+section p{
+    background: rgba(255, 355, 56, 0,5);
+    font-size: 50%;
+    width: 50%;
+}
+

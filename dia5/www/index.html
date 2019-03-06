@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="." method="GET">
+        <h1>Formulario de sesión</h1>
+        <fieldset>
+            <!--legend es para el título del bloque del formulario-->
+            <LEgend>Datos de acceso</LEgend>
+        
+            <label for="Nombre">Nombre:</label>        
+            <input type="text" maxlength="10" name="Nombre" id="Nombre" placeholder="Nombre" autofocus>
+        
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo electrónico" placeholder="Email">
+        </fieldset> 
+
+        <fieldset>
+            <legend>Seguridad</legend>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
+        </fieldset>    
+
+        <fieldset>
+            <Legend>Otros contenidos</Legend>
+            <label for="url">URL</label>
+            <input type="url" id="url" name="dirección url"placeholder="url">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Biografia</legend>
+            <textarea name="bio" id="bio" cols="30" rows="3"></textarea>
+            <Label for="provincia">Provincia</Label>
+            <select name="provincia" id="provincia" >  <!--size (limita las opciones que muestra) multiple (permite seleccionar varias das opcións-->
+                <option>Escolle a provincia...</option>
+                <option value="Lugo" selected>Lugo</option> <!--selected (para que aparezca esta opción como selección por defecto)-->
+                <option value="Coruña">Coruña</option>
+                <option value="Pontevedra">Pontevedra</option>
+                <option value="Ourense">Ourense</option> <!--disabled (deshabilita una opción)-->
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Máis cousas</legend>
+            <label for="newsletter">Recibir newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter" value="Vale bueno" checked> <!--value en checkbox non se suele utilizar. cheched sirve para que aparezca por defecto checheado-->
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comida favorita</legend>
+            <ul>
+                <li>
+                    <label for="pementos">pementos</label>
+                    <input type="radio" name="comidafavorita" value="pementos" checked> <!--para que a selección sea excluinte, o name debe ser igual nas dúas opcións-->
+                </li>
+                <li>
+                    <label for="sopa">sopa</label>
+                    <input type="radio" name="comidafavorita" value="sopa">
+                </li>
+            </ul>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>máis movidas</legend>
+            <label for="idade">Edad</label>
+            <input type="number" name="idade" id="idade"><!--step (de cuanto en cuanto sube), min, max (número maximo y mínimo)-->
+            <label for="datanacemento">Data de nacemento</label>
+            <input type="date" name="datanacemento" id="datanacemento"><!--min y max, pero hay que ponerlo en formula inglesa (yyyy-mm-dd)-->
+
+            <!-- <input type="month" name="mes" id="mes">
+            <input type="week" name="semana" id="semana">
+            <input type="time" name="hora" id="hora"> -->
+            <!-- <Label for="color">Color</Label>
+            <input type="color" name="color" id="color"> -->
+            <Label for="CV">Envía o teu CV</Label>
+            <input type="file" name="curriculum" id="CV">
+            <label for="rango">Arrastra isto</label>
+            <input type="range" name="rango" id="rango" min="0" max="99">
+
+            
+
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar</button>
+        <button type="button">Non fai nada</button> <!--sirve para facer outras cousas con javascipt-->
+
+    </form>
+
+    <header>Máis elementos de html</header>
+
+    <address>
+        <p>Juan florez, 23, A Coruña</p>
+        <a href="tel:981526456">981526456</a>
+    </address>
+
+        <h2>Blockquote</h2>
+    <blockquote cite="http://citasdivertdias.com"> un gran poder....</blockquote> <!--blockquote e un tag de bloque, mentras que cite non, e inline-->
+    <p>Entón ela dixo <q cite="http://citasdivertdias.com">un gran poder.......</q></p>
+
+    <figure> <!--indica que ahí hay unha imaxe, e converteo en un elemento de bloque-->
+        <img src="laslmfsnodnoas.com" alt="tarara">
+        <figcaption>Imagen ramdom</figcaption>
+    </figure>
+
+    <h2>texto preformateado</h2>
+    <pre><!--texto preformateado, respeta espacios e saltos de liña-->
+        reosoniens
+        oasfniñ
+        laksnfdiññais
+    </pre>
+    <p>
+        si non o entendes, <abbr title="Read the fuching manual">RTFM</abbr>
+    </p>
+
+    <h2>salto de liña</h2>
+
+    <br> <!--salto de liña, solo se debe usar si hay que escribir poesía-->
+
+    
+
+    <p></p>
+
+</body>
+</html>

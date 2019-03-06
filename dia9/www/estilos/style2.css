@@ -1,0 +1,15 @@
+header {
+    background: lightgoldenrodyellow;
+    width: 70%;
+    margin: 3rem auto;
+    max-width: 800px; /*max width limita o tamaño máximo da caixa, sempre ocupará o 70%, pero sin pasarse de 800px*/
+    min-width: 300px;
+}
+
+strong {
+    background: lightcoral; 
+    margin: 0 10px;
+    padding: 10px;
+    display: inline-block; /*con " display: block " permitenos convertir un inline tag en un block element, con lo que todos los atributos disponibles a los bloq se le pueden atribuir sin problema, tipo margin-top, widht, height, etc.*//*con inline-block, podemos poñerlle width y height, pero lo intenta mantener dentro de la misma linea*/
+
+}

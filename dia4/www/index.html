@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table border="1"> 
+    
+    <caption>táboa de proba </caption><!--título da táboa-->
+    <thead>
+    
+    <!--los th es para titulos, td para filas, th para columnas-->
+    <tr>
+        <th>uno</th>
+        <th>dos</th>
+        <th>tres</th>
+    </tr>
+    </thead>       
+    <tbody><!--agrupar los cuerpo de la tabla-->
+    <tr>
+        <td>Celda a</td>
+        <td colspan="2">Celda B</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Celda 2.1 </td>
+        <td>Celda 2.2 </td>
+        <td>Celda 2.3 </td>
+    </tr>
+    <tr>
+        <td>Celda 2.2.1 </td>
+        <td>Celda 2.3.1 </td>
+    </tr>
+    </tbody> 
+    <tfoot><!--para agrupar pés de tablas-->
+        <tr>
+            <td>Pé A</td>
+            <td>Pé B</td>
+            <td>Pé C</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<img src="/media/foto1.jpg" alt="Dados" width="300"> 
+
+<audio src="/media/Audio.mp3" controls loop></audio>
+
+
+<video src="/media/video.mp4" controls poster="/media/foto1.jpg" width="400"></video>
+<!--poster para poner una imagen en el video mientras no play-->
+
+<form action="." method="get">
+<!--formulario de tipo get, p.e os de búsqueda, mandan unha orde de "dame lo que tienes", digamos que buscan na propia index.html-->
+<!--cuando son formularios grandes, os de tipo post usanse mais, porque a info non vai na url, senon que vai na petición (node)-->
+   
+    <input type="text" name="nombre" maxlength="10" value="Jaimito" placeholder="Nombre" value="Edu" autofocus disabled readonly>
+   <!--value (valor por defecto) tiene mucho sentido con readonly,
+       name obligatorio siempre, placeholder se pone en 2 
+    plano lo que es, readonly solo lectura. disabled lo deshabilita del todo
+    required implica obligatorio cubrir antes de enviar formulario-->
+    <button type="submit" disabled >Enviar</button>
+    <input type="email" name="correo" required>
+    <input type="password" name="contraseña"> 
+
+    <!--os formularios que tienen password tienen que ser tipo post, los get muestran la password en la url, en post
+        , si es htmls, la peticion es encriptada, con lo que es totalmente seguro-->
+</form>
+
+</body>
+</html>
